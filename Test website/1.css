@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+html{
+  font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    margin:0;
+    font-family:'Poppins', arial;
+    font-size:20px;
+    color:#c0bdbd;
+    background-color:#FFFFFF;
+    text-align: left;
+    height: 100%;
+
+}
+#menu {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 25%);
+    z-index: 100;
+    font-family: "Oswald",sans-serif;
+    margin-bottom: -60px;
+    
+}
+/* Bar */
+#menu a {
+        display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid transparent;
+    padding: 10px 0;
+    color: rgb(87, 85, 85);
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 10px;
+    
+}
+
+#menu a:hover {
+    border-bottom:1px solid #ffffff;
+    border-left:3px solid #545550;
+    border-right:3px solid #545550;
+    padding-left:9px;
+    padding-right:9px;
+    color:rgb(10, 10, 10);
+    background-color:#ffffff;
+}
+/* Link in certification */
+ a {
+  color: #9c87ce;
+}
+a:hover {
+  color: #fff;
+}
+
+
+/*  main picture */
+.site-header{
+      background: #ccc url("https://i.ibb.co/Q6v5Ntf/IMG-0350.jpg");
+      background-blend-mode: luminosity;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 650px;
+      border-bottom: 1px solid #ccc;
+      text-align:center;
+      padding-top: 120px;
+      font-family: "Oswald",sans-serif;
+      color: #3f3d3d;
+}
+/*  Swapnil text*/
+    .site-header h1{
+      font-size: 90px;
+      text-transform: uppercase;
+      }
+      /*  Blinking js text*/
+      .site-header h2{
+        font-size: 60px;
+        position: absolute;
+        margin-left: 34%;
+        margin-top: -39px;
+        color: rgb(78, 67, 67);
+
+      }
+      .txt-type{
+        color: rgb(73, 56, 56);
+      }
+      /*  corsere*/
+      .txt-type > .txt {
+        border-right: 0.2rem solid #777;
+      }
+  
+
+      
+/*  main portion*/
+#mainbar {
+  margin-right: 0px;
+    background-repeat:no-repeat;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-right: 20%;
+    background-color: #1f1d1d;
+    text-align: left;
+   font-family:'Poppins', arial;
+    color: #fff;
+    font-size: 2.2vh;
+    line-height: 3.3vh;
+    font-weight: 400;
+    letter-spacing: 1px;
+    position: relative;
+    padding-left: 30px;
+}
+.intro {
+    display: -ms-grid;
+    display: grid;
+    padding-right: 30%;
+    position: relative;
+}
+/*  intro circle*/
+.intro::before {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: #333233;
+  top: -60;
+  left:-80;
+  z-index: 1;
+  opacity: 30%;
+}
+
+/*  Intrduction*/
+
+.extra{
+   padding-right: 30%;
+  margin-top: 100px;
+}
+/*  about  */
+.extra1{
+ 
+  padding-right: 30%;
+  scroll-behavior: initial;
+  margin-top: 50px;
+}
+
+/*  form ko input words*/
+.feedback-input {
+  color:rgb(148, 143, 143);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #4b4949;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+/*  comment part*/
+.textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#141414;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:rgb(57, 167, 94);
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+  padding-left: 1px;
+}
+
+#homo1:hover{
+  color: aqua;
+}
+
+
+/* Footer */
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: #111;
+  color: #fff;
+}
+/*  footer text swapnil*/
+.footer-content h3{
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  display: flex;
+}
+/*  Quoet*/
+.footer-content p{
+  max-width: 500px;
+  margin: 10auto auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+/*  icon and list*/
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i{
+  font-size: 3.5rem;
+  transition: color .4s ease;
+  display: flex;
+  padding-right: 40px;
+
+}
+.socials a:hover i{
+  color: aqua;
+}
+
+/*  Copyright*/
+.footer-bottom{
+  background: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
