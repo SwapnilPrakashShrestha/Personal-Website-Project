@@ -1,3 +1,3 @@
 # Projects
-You Can peeview thios site on 
+You can preview this site on 
 www.swapnilprakashshrestha.com.np
